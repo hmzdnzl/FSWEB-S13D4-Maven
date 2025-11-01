@@ -1,18 +1,18 @@
 package org.example;
 
 public class Point {
-    protected int x;
-    protected int y;
+    private int x;
+    private int y;
     public Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
     public int getX() {
-        return x;
+        return this.x;
     }
 
     public int getY() {
-        return y;
+        return this.y;
     }
     public void setX(int x) {
         this.x = x;
@@ -21,23 +21,12 @@ public class Point {
         this.y = y;
     }
     public double distance() {
-        double a=0;
-        double b=0;
-        double dx = x*b - x*a;
-        double dy = y*b - y*a;
-        return Math.sqrt(dx*dx + dy*dy);
+        return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
     }
     public double distance(Point p) {
-        double a=0;
-        double b=0;
-        double dx = x*b - x*a;
-        double dy = y*b - y*a;
-        return Math.sqrt(dx*dx + dy*dy);
+        return Math.sqrt(Math.pow(x - p.x, 2) + Math.pow(y - p.y, 2));
     }
-     public double distance(int A, int B) {
-      
-        double dx = x*B - x*A;
-        double dy = y*B - y*A;
-        return Math.sqrt(dx*dx + dy*dy);
+    public double distance(int x, int y) {
+        return Math.sqrt(Math.pow(this.x - x, 2) + Math.pow(this.y - y, 2));
     }
 }
