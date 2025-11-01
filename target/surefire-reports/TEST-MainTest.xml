@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTest" time="0.952" tests="10" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="D:\JS\FSWEB-S13D4-Maven\target\test-classes;D:\JS\FSWEB-S13D4-Maven\target\classes;C:\Users\HAMZA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\HAMZA\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\HAMZA\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HAMZA\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\HAMZA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\HAMZA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HAMZA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\HAMZA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\HAMZA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HAMZA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\HAMZA\.m2\repository\org\json\json\20240205\json-20240205.jar;C:\Users\HAMZA\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\HAMZA\AppData\Local\Temp\surefire13786651730216703169\surefirebooter8976746461308975193.jar C:\Users\HAMZA\AppData\Local\Temp\surefire13786651730216703169 2025-11-01T03-00-35_685-jvmRun1 surefire4019323180433847935tmp surefire_0158216291933463842tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\JS\FSWEB-S13D4-Maven\target\test-classes;D:\JS\FSWEB-S13D4-Maven\target\classes;C:\Users\HAMZA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\HAMZA\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\HAMZA\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HAMZA\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\HAMZA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\HAMZA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HAMZA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\HAMZA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\HAMZA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HAMZA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\HAMZA\.m2\repository\org\json\json\20240205\json-20240205.jar;C:\Users\HAMZA\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HAMZA"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\JS\FSWEB-S13D4-Maven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HAMZA\AppData\Local\Temp\surefire13786651730216703169\surefirebooter8976746461308975193.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="HAMZA"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HAMZA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HAMZA\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="D:\JS\FSWEB-S13D4-Maven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\HAMZA\AppData\Local\Google\Chrome\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python313\Scripts\;C:\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Apache\maven\bin;C:\Users\HAMZA\AppData\Local\Microsoft\WindowsApps;C:\Users\HAMZA\AppData\Local\GitHubDesktop\bin;C:\Users\HAMZA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HAMZA\AppData\Roaming\npm;C:\Program Files\Java\jdk-17\bin;;c:\Users\HAMZA\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testDistanceMethodWithPointParameter" classname="MainTest" time="0.023">
+    <failure message="expected: &lt;0.0&gt; but was: &lt;5.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0.0> but was: <5.0>
+	at MainTest.testDistanceMethodWithPointParameter(MainTest.java:61)
+]]></failure>
+  </testcase>
+  <testcase name="testDistanceMethodWithTwoParameter" classname="MainTest" time="0.001">
+    <failure message="expected: &lt;0.0&gt; but was: &lt;5.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0.0> but was: <5.0>
+	at MainTest.testDistanceMethodWithTwoParameter(MainTest.java:54)
+]]></failure>
+  </testcase>
+  <testcase name="testWeaponTypesAccessModifiers" classname="MainTest" time="0.003"/>
+  <testcase name="testPlayerTypesAccessModifiers" classname="MainTest" time="0">
+    <failure message="expected: &lt;4&gt; but was: &lt;2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <4> but was: <2>
+	at MainTest.testPlayerTypesAccessModifiers(MainTest.java:68)
+]]></failure>
+  </testcase>
+  <testcase name="testDistanceMethodWithoutParameter" classname="MainTest" time="0.001">
+    <failure message="expected: &lt;0.0&gt; but was: &lt;7.810249675906654&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0.0> but was: <7.810249675906654>
+	at MainTest.testDistanceMethodWithoutParameter(MainTest.java:48)
+]]></failure>
+  </testcase>
+  <testcase name="testPointTypes" classname="MainTest" time="0.001"/>
+  <testcase name="testRestoreHealth" classname="MainTest" time="0"/>
+  <testcase name="testLoseHealth" classname="MainTest" time="0.001">
+    <failure message="expected: &lt;-20.0&gt; but was: &lt;0.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <-20.0> but was: <0.0>
+	at MainTest.testLoseHealth(MainTest.java:99)
+]]></failure>
+    <system-out><![CDATA[John player has been knocked out of game
+]]></system-out>
+  </testcase>
+  <testcase name="testHealthPercentage" classname="MainTest" time="0.001"/>
+  <testcase name="testPointTypesAccessModifiers" classname="MainTest" time="0.001">
+    <failure message="expected: &lt;4&gt; but was: &lt;2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <4> but was: <2>
+	at MainTest.testPointTypesAccessModifiers(MainTest.java:32)
+]]></failure>
+  </testcase>
+</testsuite>

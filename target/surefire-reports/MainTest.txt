@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: MainTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.952 s <<< FAILURE! - in MainTest
+testDistanceMethodWithPointParameter  Time elapsed: 0.023 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.0> but was: <5.0>
+	at MainTest.testDistanceMethodWithPointParameter(MainTest.java:61)
+
+testDistanceMethodWithTwoParameter  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.0> but was: <5.0>
+	at MainTest.testDistanceMethodWithTwoParameter(MainTest.java:54)
+
+testPlayerTypesAccessModifiers  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <2>
+	at MainTest.testPlayerTypesAccessModifiers(MainTest.java:68)
+
+testDistanceMethodWithoutParameter  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.0> but was: <7.810249675906654>
+	at MainTest.testDistanceMethodWithoutParameter(MainTest.java:48)
+
+testLoseHealth  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-20.0> but was: <0.0>
+	at MainTest.testLoseHealth(MainTest.java:99)
+
+testPointTypesAccessModifiers  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <2>
+	at MainTest.testPointTypesAccessModifiers(MainTest.java:32)
+
