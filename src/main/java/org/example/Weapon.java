@@ -14,10 +14,10 @@ public enum Weapon {
     }
 
     public int getDamage() {
-        return damage;
+        return this.damage;
     }
 
     public double getAttackSpeed() {
-        return attackSpeed;
+        return this.attackSpeed;
     }
 }

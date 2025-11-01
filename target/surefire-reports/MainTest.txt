@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: MainTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.161 s <<< FAILURE! - in MainTest
-testPlayerTypesAccessModifiers  Time elapsed: 0.007 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <4> but was: <2>
-	at MainTest.testPlayerTypesAccessModifiers(MainTest.java:68)
-
-testLoseHealth  Time elapsed: 0.002 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <-20.0> but was: <0.0>
-	at MainTest.testLoseHealth(MainTest.java:99)
-
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.062 s - in MainTest
